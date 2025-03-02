@@ -1,5 +1,6 @@
+
 class LongContainer {
-  private long i = 0;
+  private volatile long i = 0;
  
   void assignValue(long j) {
     i = j;
